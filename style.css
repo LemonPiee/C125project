@@ -1,0 +1,31 @@
+#capture{
+    height: 50px;
+    width:200px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#capture:hover{
+    background-color: rgb(127, 227, 219);
+}
+
+body{
+    background-color: rgb(17, 58, 82);
+}
+
+canvas{
+    animation-name:example;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 100px palevioletred;}
+    to{box-shadow: 1px 1px 100px palegreen;}
+}
+
+h1{
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
